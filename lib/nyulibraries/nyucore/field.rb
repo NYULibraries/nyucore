@@ -1,11 +1,13 @@
 module Nyulibraries
   module NyuCore
     class Field
-      NAMES = [:identifier, :access_url, :archive_url, :title, :alternative,
-        :vernacular, :uniform, :type, :is_part_of, :collection_id, :creator,
-        :contributor, :isbn, :issn, :subject, :genre, :classification, :date,
-        :modified, :publisher, :language, :coverage, :spatial, :temporal,
-        :extent, :format, :description, :abstract, :full_text, :rights]
+      NYU_NAMES = [:access_url, :archive_url, :vernacular, :uniform, :collection_id,
+        :isbn, :issn, :genre, :classification, :full_text]
+      DC_NAMES = [:identifier, :title, :type, :creator, :contributor,
+        :date, :publisher, :format, :description, :rights]
+      DCTERMS_NAMES = [:alternative, :is_part_of, :subject, :modified,
+        :language, :coverage, :spatial, :temporal, :extent, :abstract]
+      VALID_NAMES = NYU_NAMES + DC_NAMES + DCTERMS_NAMES
 
       attr_accessor :name, :value
 
@@ -25,11 +27,23 @@ module Nyulibraries
 
       def name=(name)
         symbolized_name = name.to_sym
-        unless NAMES.include?(symbolized_name)
+        unless VALID_NAMES.include?(symbolized_name)
           raise ArgumentError.new("Invalid name!")
         end
         @name = symbolized_name
       end
+
+      def namespace
+        @namespace ||= case name
+          when *NYU_NAMES
+            :nyu
+          when *DC_NAMES
+            :dc
+          when *DCTERMS_NAMES
+            :dcterms
+          end
+      end
+      alias_method :prefix, :namespace
     end
   end
 end
