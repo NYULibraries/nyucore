@@ -7,14 +7,20 @@ module Nyulibraries
       subject(:field) { Field.new(name: name, value: value) }
       it { should be_a(Field) }
       describe '#name=' do
-        subject { field.name }
+        subject { field.name=(name) }
         context "when the name is passed as symbol" do
           let(:name) { :subject }
-          it { should be(:subject) }
+          it { should_not raise_error }
+          it("should set the name to :subject") do
+            expect(field.name).to be(:subject)
+          end
         end
         context "when the name is passed as string" do
           let(:name) { "subject" }
-          it { should be(:subject) }
+          it { should_not raise_error }
+          it("should set the name to :subject") do
+            expect(field.name).to be(:subject)
+          end
         end
       end
       describe '#name' do
