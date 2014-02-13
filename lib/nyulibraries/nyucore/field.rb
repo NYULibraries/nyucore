@@ -12,9 +12,9 @@ module Nyulibraries
       #   e.g. the following are equivalent
       #     Nyulibraries::NyuCore::Field.new(name: :subject, value: "NYUCore vs. NyuCore")
       #     Nyulibraries::NyuCore::Field.new(name: "subject", value: "NYUCore vs. NyuCore")
-      def initialize(args = {})
-        self.name = args[:name]
-        @value = args[:value]
+      def initialize(attributes = {})
+        self.name = attributes[:name]
+        @value = attributes[:value]
       end
 
       def name=(name)
