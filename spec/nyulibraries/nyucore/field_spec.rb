@@ -28,6 +28,11 @@ module Nyulibraries
               expect{ field.name=(:invalid) }.to raise_error(ArgumentError)
             end
           end
+          context "when the name is camel case" do
+            it("should raise an ArgumentError") do
+              expect{ field.name=(:accessURL) }.to raise_error(ArgumentError)
+            end
+          end
         end
         describe '#name' do
           subject { field.name }

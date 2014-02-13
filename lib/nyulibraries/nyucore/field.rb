@@ -1,11 +1,11 @@
 module Nyulibraries
   module NyuCore
     class Field
-      NAMES = [:identifier, :accessURL, :archiveURL, :title, :alternative,
-        :vernacular, :uniform, :type, :isPartOf, :collectionId, :creator,
-        :contributor, :ISBN, :ISSN, :subject, :genre, :classification, :date,
+      NAMES = [:identifier, :access_url, :archive_url, :title, :alternative,
+        :vernacular, :uniform, :type, :is_part_of, :collection_id, :creator,
+        :contributor, :isbn, :issn, :subject, :genre, :classification, :date,
         :modified, :publisher, :language, :coverage, :spatial, :temporal,
-        :extent, :format, :description, :abstract, :fullText, :rights]
+        :extent, :format, :description, :abstract, :full_text, :rights]
 
       attr_accessor :name, :value
 

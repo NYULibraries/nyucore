@@ -14,11 +14,11 @@ This :gem: helps ruby applications manage NYUCore.
 An `NyuCore::Field` is a metadata element.
 A `Field` must have one of the following names:
 
-    :identifier, :accessURL, :archiveURL, :title, :alternative, :vernacular, 
-    :uniform, :type, :isPartOf, :collectionId, :creator, :contributor, :ISBN, 
-    :ISSN, :subject, :genre, :classification, :date, :modified, :publisher, 
-    :language, :coverage, :spatial, :temporal, :extent, :format, :description, 
-    :abstract, :fullText, :rights
+    :identifier, :access_url, :archive_url, :title, :alternative,
+    :vernacular, :uniform, :type, :is_part_of, :collection_id, :creator,
+    :contributor, :isbn, :issn, :subject, :genre, :classification, :date,
+    :modified, :publisher, :language, :coverage, :spatial, :temporal,
+    :extent, :format, :description, :abstract, :full_text, :rights
 
 It will raise an `ArgumentError` if you're doing it wrong.
 
