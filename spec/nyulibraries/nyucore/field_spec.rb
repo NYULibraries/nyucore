@@ -5,6 +5,7 @@ module Nyulibraries
       let(:name) { :subject }
       let(:value) { "NYUCore vs. NyuCore" }
       subject(:field) { Field.new(name: name, value: value) }
+      it { should be_a(Field) }
       describe '#name=' do
         subject { field.name }
         context "when the name is passed as symbol" do
