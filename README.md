@@ -8,6 +8,37 @@
 
 NYUCore is a metadata vocabulary built for describing core elements of NYU's Digital Collections
 and easing interoperability among them.
-This gem help ruby implementations manage NYUCore.
+This :gem: helps ruby applications manage NYUCore.
 
-:metal:
+## Fields
+An `NyuCore::Field` is a metadata element.
+
+## Records
+An `NyuCore::Record` is a collection of `NyuCore::Fields`.
+
+## Versioning
+We try to use [semantic versioning](http://semver.org/), major versions may break you :poop:
+
+## Contributing
+NyuCore is, and should be, constantly evolving as we at NYU get better
+at representing our digital collections, which is awesome :metal:
+
+We love tests. Contributions should be fully tested with
+[RSpec](https://www.relishapp.com/rspec/). If you write your tests first,
+(and follow [RSpec best practices](http://betterspecs.org/)) you'll probably
+[write better code](http://blog.c42.in/blog/tdd-isnt-about-testing-its-about-design).
+
+To run your RSpec suite, you can use `rake`
+
+    $ bundle exec rake
+
+or just `rspec`
+
+    $ bundle exec rspec
+
+## Gem Releases
+We use bundler's awesome rake task to push our gem rubygems.
+  
+    $ bundle exec rake release
+  
+If you need a new release, or tag or whatever, let us know in the issues.
