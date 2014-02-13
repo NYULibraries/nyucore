@@ -4,8 +4,8 @@ require File.expand_path('../lib/nyulibraries/nyucore/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name     = 'nyulibraries-nyucore'
   gem.version  = Nyulibraries::NyuCore::VERSION
-  gem.authors  = ['Corey Harper']
-  gem.email    = ['corey.harper@nyu.edu']
+  gem.authors  = ['Corey Harper', 'Scot Dalton', 'Barnaby Alter']
+  gem.email    = ['corey.harper@nyu.edu', 'scot.dalton@nyu.edu', 'barnaby.alter@nyu.edu']
   gem.summary  = 'Ruby library for working with NYUCore'
   gem.homepage = 'https://github.com/NYULibraries/nyulibraries-nyucore'
   gem.license  = 'MIT'
