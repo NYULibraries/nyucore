@@ -47,6 +47,36 @@ module Nyulibraries
             end
           end
         end
+        describe '#namespace' do
+          subject { field.namespace }
+          context "when the name is :identifier" do
+            let(:name) { :identifier }
+            it { should be(:dc) }
+          end
+          context "when the name is :access_url" do
+            let(:name) { :access_url }
+            it { should be(:nyu) }
+          end
+          context "when the name is :access_url" do
+            let(:name) { :archive_url }
+            it { should be(:nyu) }
+          end
+          context "when the name is :title" do
+            let(:name) { :title }
+            it { should be(:dc) }
+          end
+          context "when the name is :alternative" do
+            let(:name) { :alternative }
+            it { should be(:dcterms) }
+          end
+        end
+        describe '#prefix' do
+          subject { field.prefix }
+          context "when the name is :identifier" do
+            let(:name) { :identifier }
+            it { should be(:dc) }
+          end
+        end
       end
       context "when the instantiation name attribute is invalid" do
         it("should raise an ArgumentError") do
