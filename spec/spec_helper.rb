@@ -3,7 +3,7 @@ $:.unshift File.expand_path('../../lib', __FILE__)
 require 'coveralls'
 Coveralls.wear!
 require 'rspec'
-require 'nyulibraries-nyucore'
+require 'nyucore'
 require 'pry'
 
 RSpec.configure do |config|
