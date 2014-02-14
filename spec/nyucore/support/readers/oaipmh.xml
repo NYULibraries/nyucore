@@ -1,0 +1,58 @@
+?xml version='1.0' encoding='UTF-8'?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" dc="http://purl.org/dc/elements/1.1/" dcterms="http://purl.org/dc/terms/" nyucore="http://purl.org/nyu/digicat/" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>DSS.NYCDCP_DCPLION_10cav\DSS.Lion_GJK</identifier>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+          <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">DSS.NYCDCP_DCPLION_10cav\DSS.Lion_GJK</dc:identifier>
+          <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">LION</dc:title>
+          <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">New York City Dept. of City Planning</dc:publisher>
+          <nyu:accessURL xmlns:nyu="http://purl.org/nyu/digicat/">http://magellan.home.nyu.edu/datasets/zips/NYCDCP_DCPLION_10CAV-Lion_GJK.zip</nyu:accessURL>
+          <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Dataset</dc:type>
+          <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">LION is a single line representation of New York City streets containing address ranges and other information.</dc:description>
+          <nyu:edition xmlns:nyu="http://purl.org/nyu/digicat/">10C</nyu:edition>
+          <dcterms:isPartOf xmlns:dcterms="http://purl.org/dc/terms/">NYCDCP_DCPLION_10CAV</dcterms:isPartOf>
+          <dcterms:hasVersion xmlns:dcterms="http://purl.org/dc/terms/">DSS.NYCDCP_DCPLION_10cav\DSS.Lion_GJK</dcterms:hasVersion>
+          <nyu:processing xmlns:nyu="http://purl.org/nyu/digicat/">SDR</nyu:processing>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record><header><identifier>http://archive.nyu.edu/handle/2451/14119</identifier><datestamp>2006-12-21T17:03:53Z</datestamp><setSpec>hdl_2451_14813</setSpec><setSpec>hdl_2451_14090</setSpec></header><metadata><oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>Models of Customer Behavior: From Populations to Individuals</dc:title><dc:creator>Jiang, Tianyi</dc:creator><dc:creator>Tuzhilin, Alex</dc:creator><dc:description>There have been various claims made in the marketing community about the benefits of 1-to-1 marketing versus traditional customer segmentation approaches and how much they can improve understanding of customer behavior. However, few rigorous studies exist that systematically compare these approaches. In this paper, we conducted such a systematic study and compared the performance of aggregate, segmentation, and 1-to-1 marketing approaches across a broad range of experimental settings such as multiple segmentation levels, multiple real world marketing datasets, multiple dependent variables, different types of classifiers, different segmentation techniques, and different predictive measures. Our results show that, overall, 1-to-1 modeling significantly outperforms the aggregate approach among high-volume customers and is never worse than aggregate approach among low-volume customers in our experimental settings. Moreover, the best segmentation techniques tend to outperform 1-to-1 modeling among low-volume customers.</dc:description><dc:publisher>Stern School of Business, New York University</dc:publisher><dc:date>2005-11-03T14:20:46Z</dc:date><dc:date>2005-11-03T14:20:46Z</dc:date><dc:date>2004</dc:date><dc:type>Working Paper</dc:type><dc:format>288369 bytes</dc:format><dc:format>application/pdf</dc:format><dc:identifier>http://hdl.handle.net/2451/14119</dc:identifier><dc:language>English</dc:language><dc:language>en_US</dc:language><dc:relation>CeDER-04-05</dc:relation><dc:relation>http://archive.nyu.edu/bitstream/2451/14119/1/CeDER-04-05.pdf</dc:relation><dc:relation>http://archive.nyu.edu/bitstream/2451/14119/3/CeDER-04-05.pdf.txt</dc:relation></oai_dc:dc></metadata></record>
+    <record><header><identifier>http://archive.nyu.edu/handle/2451/14121</identifier><datestamp>2011-06-29T18:31:03Z</datestamp><setSpec>hdl_2451_14813</setSpec><setSpec>hdl_2451_14090</setSpec></header><metadata><oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"><dc:title>The Emergence of Boundary Spanning Competence in Practice: Implications
+for Information Systems' Implementation Use</dc:title><dc:creator>Levina, Natalia</dc:creator><dc:creator>Vaaste, Emmanuelle</dc:creator><dc:subject>Boundary spanning</dc:subject><dc:subject>boundary objects</dc:subject><dc:subject>boundary spanners</dc:subject><dc:subject>boundaries</dc:subject><dc:subject>practice theory</dc:subject><dc:subject>Bourdieu</dc:subject><dc:subject>Knowledge Management</dc:subject><dc:subject>organizational learning</dc:subject><dc:subject>IS implementation</dc:subject><dc:subject>IS use</dc:subject><dc:subject>client-consultant relationship</dc:subject><dc:subject>intranet, roles</dc:subject><dc:description>Knowledge Management (KM) literature has centrally focused on
+organization's ability to build practices that integrate diverse
+expertise across professional, organizational, industry and other
+boundaries. In this paper we investigate how an organizational
+competence in boundary spanning emerges in practice. We draw on the
+concepts of boundary spanner and boundary object and on the
+practice-based view of KM in organizations to understand the emergence
+of boundary spanning in practice, which we define as relating practices
+from diverse fields. We contrast data from two qualitative, longitudinal
+field studies to draw our conclusions. We argue that for boundary
+spanning to emerge in practice a new joint field, which unites agent in
+a common pursuit, needs to be produced. Engagement of agents in this
+practice partially transforms their practices in local fields so as to
+accommodate the interests of their counterparts. Those agents who engage
+in negotiating the nature of this new field become boundary
+spanners-in-practice. Through their engagements in the new joint field
+and diverse local practices boundary spanners-in-practice produce and
+use objects which become locally useful and acquire a joint identity
+through their use &amp;acirc;   boundary objects-in-use. Through data
+analysis we find, first, that nominated boundary spanners and designated
+boundary objects do not always become boundary spanners-in-practice and
+boundary objects-in-use. Second, we outline the conditions necessary for
+boundary spanners-in-practice to emerge, including the need for them to
+become legitimate, albeit peripheral, participants in the practices of
+the fields that they span. Thirdly, we show how boundary
+spanners-in-practice use their symbolic, cultural, social, and economic
+resources (capital) to build the new joint field. Finally, we examine
+the tensions involved in a) the nomination of agents as boundary
+spanners and artifacts as boundary objects; b) the growth of the new
+joint field; c) agents&amp;acirc;   choice in investing in the new joint
+field; and d) spanning one at the expense of another kind of boundary.
+We conclude by drawing implications for IS implementation and use.</dc:description><dc:publisher>Stern School of Business, New York University</dc:publisher><dc:date>2005-11-03T14:31:23Z</dc:date><dc:date>2005-11-03T14:31:23Z</dc:date><dc:date>2004</dc:date><dc:type>Working Paper</dc:type><dc:format>264135 bytes</dc:format><dc:format>application/pdf</dc:format><dc:identifier>http://hdl.handle.net/2451/14121</dc:identifier><dc:language>English</dc:language><dc:language>en_US</dc:language><dc:relation>CeDER-04-07</dc:relation><dc:relation>http://archive.nyu.edu/bitstream/2451/14121/1/CeDER-04-07.pdf</dc:relation><dc:relation>http://archive.nyu.edu/bitstream/2451/14121/3/CeDER-04-07.pdf.txt</dc:relation></oai_dc:dc></metadata></record>
+  </ListRecords>
+</OAI-PMH>
