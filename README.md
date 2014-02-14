@@ -27,7 +27,7 @@ It will raise an `ArgumentError` if you're doing it wrong.
 An `NyuCore::Record` is a collection of `NyuCore::Fields`.
 
 ## Versioning
-We try to use [semantic versioning](http://semver.org/), major versions may break you :poop:
+We try to use [semantic versioning](http://semver.org/), major versions may break your :poop:
 
 ## Contributing
 NyuCore is, and should be, constantly evolving as we at NYU get better
