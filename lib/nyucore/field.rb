@@ -27,7 +27,7 @@ module NyuCore
     def name=(name)
       symbolized_name = name.to_sym
       unless VALID_NAMES.include?(symbolized_name)
-        raise ArgumentError.new("Invalid name!")
+        raise ArgumentError.new("Invalid field name!")
       end
       @name = symbolized_name
     end
