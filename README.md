@@ -26,6 +26,18 @@ It will raise an `ArgumentError` if you're doing it wrong.
 ## Records
 An `NyuCore::Record` is a collection of `NyuCore::Fields`.
 
+## Readers
+Often, we have records that are not NYUCore, but that we'd like to turn into NYUCore.
+[`Citero`](https://github.com/NYULibraries/citero-jruby) is one option for this transformation,
+but since it's currently tied JRuby, we'll transform with `NyuCore::Readers`, for MAXIMUM FLEXIBILITY :unlock:.
+
+`Readers` are instantiated with an appropriate input parameter
+(usually one of a filename, a String of input data or an IO object).
+
+`Readers` convert to an Array of NYUCore with the `#to_ary` instance method.
+
+If you're developing an XML `Reader`, please use the [`multi_xml` :gem:](https://github.com/sferik/multi_xml), for MAXIMUM FLEXIBILITY :unlock:.
+
 ## Versioning
 We try to use [semantic versioning](http://semver.org/), major versions may break your :poop:
 
