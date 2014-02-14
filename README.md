@@ -22,6 +22,7 @@ A `Field` must have one of the following names:
 
 It will raise an `ArgumentError` if you're doing it wrong.
 
+`:identifier` and `:title` are required at instantiation time.
 
 ## Records
 An `NyuCore::Record` is a collection of `NyuCore::Fields`.
